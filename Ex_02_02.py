@@ -11,9 +11,10 @@ print('Hello', name)
 # Enter Rate: 2.75
 # Pay: 96.25
 
-hours = int(input('Enter Hours: '))
-rate = float(input('Enter Rate: '))
-print(hours * rate)
+hour = input('Enter Hours: ')
+rate = input('Enter Rate: ')
+salary = float(hour) * float(rate)
+print('Pay:', salary)
 
 
 # 3. Assume that we execute the following assignment statements:
