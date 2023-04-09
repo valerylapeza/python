@@ -11,9 +11,9 @@ print('Hello', name)
 # Enter Rate: 2.75
 # Pay: 96.25
 
-hour = input('Enter Hours: ')
-rate = input('Enter Rate: ')
-salary = float(hour) * float(rate)
+hour = float(input('Enter Hours: '))
+rate = float(input('Enter Rate: '))
+salary = hour * rate
 print('Pay:', salary)
 
 
